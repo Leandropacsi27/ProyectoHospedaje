@@ -1,3 +1,8 @@
+# **Sistema de Gestión de Cuartos y Emisión de Boletas para Hospedaje Cocharcas**
+
+---
+
+## Descripción
 Este proyecto tiene como objetivo mejorar la administración del Hospedaje Cocharcas mediante un sistema desarrollado en Java, que permite gestionar la asignación de cuartos y la emisión de boletas de pago. La aplicación facilita la organización de reservas, optimiza la facturación y reduce errores administrativos.
 
 ---
@@ -54,3 +59,13 @@ Este proyecto tiene como objetivo mejorar la administración del Hospedaje Cocha
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ---
+
+## Contacto
+Proyecto desarrollado por [Nombre del Desarrollador](https://github.com/usuario). Para consultas, escribe a: ejemplo@correo.com.
+
+---
+
+## Estado del Proyecto
+**Versión actual**: 1.0.0  
+**Estado**: En desarrollo (Beta)
+
