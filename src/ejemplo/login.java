@@ -29,7 +29,6 @@ public class login extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         logo = new javax.swing.JLabel();
         nombreempresa = new javax.swing.JLabel();
-        fondoverde = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
@@ -39,6 +38,7 @@ public class login extends javax.swing.JFrame {
         jSeparator2 = new javax.swing.JSeparator();
         jPasswordField1 = new javax.swing.JPasswordField();
         jEntrar = new javax.swing.JButton();
+        jPanel2 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
@@ -48,16 +48,12 @@ public class login extends javax.swing.JFrame {
 
         logo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ejemplo/circle (1).png"))); // NOI18N
-        jPanel1.add(logo, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 100, 370, 150));
+        jPanel1.add(logo, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 100, 360, 150));
 
         nombreempresa.setFont(new java.awt.Font("Segoe UI", 0, 30)); // NOI18N
-        nombreempresa.setForeground(new java.awt.Color(255, 255, 255));
         nombreempresa.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         nombreempresa.setText("HOSPEDAJE COCHARCAS");
         jPanel1.add(nombreempresa, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 270, 360, 40));
-
-        fondoverde.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tomy_\\Desktop\\Ciclo2-2024\\softwarecursointegrador\\fondoproyecto\\img.jpg")); // NOI18N
-        jPanel1.add(fondoverde, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 0, 370, 500));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -92,6 +88,21 @@ public class login extends javax.swing.JFrame {
         jEntrar.setBackground(new java.awt.Color(102, 204, 0));
         jEntrar.setText("ENTRAR");
         jPanel1.add(jEntrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 340, -1, -1));
+
+        jPanel2.setBackground(new java.awt.Color(15, 213, 91));
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 360, Short.MAX_VALUE)
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 500, Short.MAX_VALUE)
+        );
+
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 0, 360, 500));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -148,12 +159,12 @@ public class login extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel fondoverde;
     private javax.swing.JButton jEntrar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
