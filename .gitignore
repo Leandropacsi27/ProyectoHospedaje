@@ -3,7 +3,6 @@ nbproject/private/
 
 # Ignorar directorios generados por la compilación
 /build/
-/dist/
 
 # Ignorar archivos específicos de NetBeans
 nbproject/locks/
